@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n, factorial = 1;
+    int n, fact = 1;
 
     cout << "Enter a positive integer: ";
     cin >> n;
@@ -12,9 +12,9 @@ int main() {
     }
 
     for(int i = 1; i <= n; ++i) {
-        factorial *= i;
+        fact *= i;
     }
-    cout << "Factorial of " << n << " = " << factorial;
+    cout << "Fact of " << n << " = " << fact;
 
     return 0;
 }
