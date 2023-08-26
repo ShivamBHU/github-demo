@@ -7,7 +7,7 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> n;
     if (n<0){
-        cout << "wrong input";
+        cout << "you have entered wrong input";
         exit;
     }
 
